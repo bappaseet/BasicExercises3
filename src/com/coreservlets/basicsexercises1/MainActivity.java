@@ -28,7 +28,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
-
+//This is inside the main class
 public class MainActivity extends Activity {
 	
 	ArrayList<Actors> actorsList;
