@@ -30,7 +30,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 //This is inside the main class
 public class MainActivity extends Activity {
-	
+	//Again Changed
 	ArrayList<Actors> actorsList;
 	
 	ActorAdapter adapter;
@@ -62,8 +62,7 @@ public class MainActivity extends Activity {
 			//	bmp.compress(Bitmap.CompressFormat.PNG, 100, stream);
 			//	byte[] byteArray = stream.toByteArray();
 			
-//				ImageView imageview = (ImageView)findViewById(R.id.ivImage);
-//				imageview.setImageResource(R.drawable.ic_launcher);
+
 				 Toast.makeText(getApplicationContext(), actorsList.get(position).getImage(), Toast.LENGTH_LONG).show();		
 				 Intent intent = new Intent(MainActivity.this,DetailPageActivity.class);
 				 intent.putExtra("Value1",actorsList.get(position).getName());
